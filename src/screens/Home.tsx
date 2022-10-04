@@ -1,10 +1,11 @@
-import { BtnMyLocation, MapView } from "../components";
+import { BtnMyLocation, MapView, ReactLogo } from "../components";
 
 export function Home() {
   return (
     <div>
-      <BtnMyLocation />
       <MapView />
+      <BtnMyLocation />
+      <ReactLogo />
     </div>
   )
 }
