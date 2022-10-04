@@ -1,11 +1,13 @@
-import { PlacesProvider } from "./context";
+import { MapProvider, PlacesProvider } from "./context";
 import { Home } from "./screens";
-import './styles.css'
+import "./styles.css";
 
 export default function MapsApp() {
   return (
     <PlacesProvider>
-      <Home />
+      <MapProvider>
+        <Home />
+      </MapProvider>
     </PlacesProvider>
   );
 }
