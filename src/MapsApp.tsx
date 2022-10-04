@@ -1,9 +1,11 @@
 import { PlacesProvider } from "./context";
+import { Home } from "./screens";
+import './styles.css'
 
 export default function MapsApp() {
   return (
     <PlacesProvider>
-      <h1>Hello world again</h1>
+      <Home />
     </PlacesProvider>
   );
 }
