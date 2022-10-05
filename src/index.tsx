@@ -4,7 +4,7 @@ import MapsApp from "./MapsApp";
 import mapboxgl from "mapbox-gl";
 
 mapboxgl.accessToken =
-  "pk.eyJ1IjoiYWd1c3RpbmcxOSIsImEiOiJjbDh1OTZtcGIwMW9jM3dxcXhxcHRic3luIn0.srHEQvtYdjuquejzmdM5aw";
+  "pk.eyJ1IjoiYWd1c3RpbmcxOSIsImEiOiJjbDh2dmNmb2YwaHZoM3BvOG9wOGRhdDFyIn0.H9txdbJ9Ca5EXYWt_amPTQ";
 
 if (!mapboxgl.supported()) {
   alert("Your browser does not support Mapbox GL");

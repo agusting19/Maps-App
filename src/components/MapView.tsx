@@ -36,8 +36,6 @@ export function MapView() {
         top: 0,
         left: 0,
       }}
-    >
-      {userLocation?.join(",")}
-    </div>
+    ></div>
   );
 }
